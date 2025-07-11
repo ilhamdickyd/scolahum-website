@@ -1,0 +1,38 @@
+/* app/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-900 min-h-screen;
+  }
+}
+
+@layer components {
+  .ted-container {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+  
+  .header-link {
+    @apply text-white hover:text-green-400 transition-colors duration-200;
+  }
+  
+  .header-link-active {
+    @apply text-green-400;
+  }
+  
+  .login-button {
+    @apply bg-transparent border border-green-400 text-white px-5 py-2 rounded hover:bg-green-400 transition-all duration-300;
+  }
+  
+  .mobile-nav-link {
+    @apply block w-full py-2 px-3 text-white hover:text-green-400 hover:bg-gray-800/30 rounded transition-colors;
+  }
+}
