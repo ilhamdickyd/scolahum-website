@@ -1,66 +1,62 @@
-# Official Website for SCOLAH-UNAIR Mengajar
+# SCOLAH-UNAIR Mengajar Official Website
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-A comprehensive informational website prototype for the SCOLAH-UNAIR Mengajar student organization, designed to serve as their central digital hub.
+![Project Screenshot](https://i.imgur.com/I9kETaD.png)
 
-**[➡️ View Live Website](https://scolahum-website.vercel.app/)** | **[➡️ Explore the Code on GitHub]([URL_GITHUB_ANDA])**
+A comprehensive informational website prototype for the SCOLAH-UNAIR Mengajar student organization, designed to serve as their central digital hub, built with Next.js and TypeScript.
+
+**[➡️ View Live Website](https://scolahum-website.vercel.app/)** | **[➡️ Explore the Code on GitHub](https://github.com/ilhamdickyd/scolahum-website)**
+
+---
+
+## Table of Contents
+- [About The Project](#about-the-project)
+- [Key Features](#key-features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Contact](#contact)
 
 ---
 
 ## About The Project
 
-This project is a prototype for a professional, full-featured website for the SCOLAH-UNAIR Mengajar organization. Its primary function is to act as a central hub for all organizational needs, including information dissemination for the public, activity showcases, new member registration, and a storefront for merchandise.
+This project was developed as a prototype for the primary digital presence of the SCOLAH-UNAIR Mengajar organization. It serves multiple functions: acting as an informational hub for the public, showcasing activities and departmental profiles, streamlining new member registration, and displaying merchandise via an e-commerce UI.
 
-## Features & Showcase
+## Key Features
 
-The website is composed of several key functional modules, each with a dedicated and responsive user interface.
+- ✅ **Organizational Showcase:** Dedicated pages for departmental profiles, vision, mission, and history.
+- ✅ **Activity & News Hub:** A dynamic section for publishing news and showcasing teaching activities through interactive galleries.
+- ✅ **Online Registration System:** An integrated form to streamline the recruitment process for new members.
+- ✅ **Merchandise Showcase:** A clean e-commerce UI to display official merchandise, designed to link to external purchasing platforms.
+- ✅ **Informational Pages:** A comprehensive, searchable FAQ section to answer common questions.
+- ✅ **Fully Responsive:** Designed with a mobile-first approach for a seamless experience on all devices.
 
-### 1. Main Pages (Home & About)
-The homepage serves as a welcoming introduction, while the "About Us" section provides detailed information on the organization's vision, mission, and history.
-
-![Homepage Screenshot](https://i.imgur.com/uGZ8n4p.png)
-
-### 2. Department & Management Profiles
-An interactive section showcasing all organizational departments and management bodies, allowing visitors to explore the structure and programs of each division.
-
-![Departments Page Screenshot](https://i.imgur.com/oYkOqLq.png)
-
-### 3. Merchandise E-commerce UI
-A clean user interface for a merchandise shop ("SCOLAH Shop"), featuring product bundles. This section is designed as a storefront UI to be integrated with an external purchasing platform.
-
-![Merch Page Screenshot](https://i.imgur.com/bQyB1oE.png)
-
-### 4. Donation & Support Page
-A dedicated page for fundraising campaigns, clearly outlining who can contribute, how donations help, and providing a clear call-to-action to support the organization's cause.
-
-![Donation Page Screenshot](https://i.imgur.com/vHqB3qB.png)
-
-### 5. FAQ Section
-A comprehensive and searchable Frequently Asked Questions (FAQ) page to provide quick answers about program information, membership, and more.
-
-![FAQ Page Screenshot](https://i.imgur.com/dK8tNnC.png)
-
-## Technology Stack
+## Tech Stack
 
 | Category | Technologies Used |
 | :--- | :--- |
 | **Core Framework** | `Next.js`, `React`, `TypeScript` |
-| **Styling** | `Tailwind CSS`, `Framer Motion` (for animations) |
-| **UI Components** | `shadcn/ui` (or your component library) |
+| **Styling** | `Tailwind CSS` |
+| **UI Components** | `shadcn/ui`, `Lucide React` (for icons) |
+| **Animation** | `Framer Motion` |
 | **Deployment** | `Vercel` |
 
 ## Getting Started
 
 To get a local copy up and running, follow these simple steps.
 
+### Prerequisites
+- [Node.js](https://nodejs.org/en/) (v18.x or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
 ### Installation
 1.  **Clone the repository:**
     ```bash
-    git clone [URL_GITHUB_ANDA]
+    git clone [https://github.com/ilhamdickyd/scolahum-website.git](https://github.com/ilhamdickyd/scolahum-website.git)
     cd scolahum-website
     ```
 2.  **Install dependencies:**
@@ -71,11 +67,12 @@ To get a local copy up and running, follow these simple steps.
     ```bash
     npm run dev
     ```
-4.  Open [http://localhost:3000](http://localhost:3000) in your browser.
+4.  Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
 ---
 
 ## Contact
 
 **Ilham Dicky Darmawan**
+
 [ilham.dicky.darmawan@gmail.com](mailto:ilham.dicky.darmawan@gmail.com) | [LinkedIn](https://www.linkedin.com/in/ilham-dicky-darmawan) | [GitHub](https://github.com/ilhamdickyd)
